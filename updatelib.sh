@@ -1,9 +1,5 @@
 #!/bin/bash
-#Script made for OS Update and lip installtion
-#Author: Vinod.N K
-#Usage: Nginx, Java, PhP, OpenSSL, Gcc, Ulimit for portal installation
-#Distro : Linux -Centos, Rhel, and any fedora
-#Check whether root user is running the script
+
 if [ "$(id -u)" != "0" ]; then
    echo "This script must be run as root" 1>&2
    exit 1
